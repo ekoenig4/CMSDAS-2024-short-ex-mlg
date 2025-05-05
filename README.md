@@ -43,13 +43,13 @@ We have reserved (thanks Matthias!) a slot of GPUs on CERN SWAN. Ideally you wou
 
 #### 1. Check out the code
 ```
-git clone ssh://git@gitlab.cern.ch:7999/cmsdas-cern-2024/short-ex-mlg.git
-cd short-ex-mlg/
+git clone https://github.com/ekoenig4/CMSDAS-2024-short-ex-mlg.git
+cd CMSDAS-2024-short-ex-mlg/
 ```
 or
 ```
-git clone ssh://git@gitlab.cern.ch:7999/cmsdas-cern-2024/short-ex-mlg.git
-cd short-ex-mlg/
+git clone https://github.com/ekoenig4/CMSDAS-2024-short-ex-mlg.git
+cd CMSDAS-2024-short-ex-mlg/
 ```
 
 #### 2. Create a python environment and install requirements (follow one of the options 2.1, 2.2, or 2.3)
@@ -79,7 +79,7 @@ To deactivate the environment, you should run `conda deactivate` from the comman
 
 ##### 2.3 Using Google Colab (google account needed)
 
-Go to [Google Colab](https://colab.research.google.com/), select `GitHub` as a source, and fill in the path to this repository (`https://github.com/vischia/data_science_school_igfae2024`). Possibly Google will ask for access to your GitHub account, although installing from a public third party repository should not require that, in principle.
+Go to [Google Colab](https://colab.research.google.com/), select `GitHub` as a source, and fill in the path to this repository (`https://github.com/ekoenig4/CMSDAS-2024-short-ex-mlg`). Possibly Google will ask for access to your GitHub account, although installing from a public third party repository should not require that, in principle.
 
 When the colab instance is active, open the jupyter notebook `train_hyp.ipynb` and run the cell labelled "*If you are using COLAB*"
 
