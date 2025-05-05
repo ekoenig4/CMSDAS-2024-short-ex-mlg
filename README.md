@@ -1,5 +1,7 @@
 # Machine learning tutorial at CMSDAS at CERN, June 2024
 
+Originally forked from: https://gitlab.cern.ch/cmsdas-cern-2024/short-ex-mlg
+
 Evan Armstrong Koenig, Matthias Komm, Pietro Vischia
 
 The core of this tutorial comes from https://github.com/vischia/data_science_school_igfae2024 (Pietro Vischia (pietro.vischia@cern.ch)).
