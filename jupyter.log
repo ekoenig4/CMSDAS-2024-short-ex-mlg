@@ -1,0 +1,80 @@
+Activating conda environment: cmsdas
+
+Starting Jupyter Notebook on port 25383 on the c0709a-s30.ufhpc server.
+
+SSH tunnel command:
+   ssh -NL 25383:c0709a-s30.ufhpc:25383 ekoenig@hpg.rc.ufl.edu
+
+SSH from HPG
+   ssh -NL 25383:localhost:25383 c0709a-s30.ufhpc
+
+Local browser URI:
+   http://localhost:25383
+[I 2025-05-09 09:22:57.398 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-05-09 09:22:57.403 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2025-05-09 09:22:57.406 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2025-05-09 09:22:57.408 ServerApp] jupyterlab | extension was successfully linked.
+[W 2025-05-09 09:22:57.411 JupyterNotebookApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-05-09 09:22:57.413 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2025-05-09 09:22:57.413 ServerApp] notebook | extension was successfully linked.
+[I 2025-05-09 09:22:57.744 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-05-09 09:22:57.772 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-05-09 09:22:57.773 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-05-09 09:22:57.774 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-05-09 09:22:57.801 LabApp] JupyterLab extension loaded from /blue/avery/ekoenig/conda/envs/cmsdas/lib/python3.10/site-packages/jupyterlab
+[I 2025-05-09 09:22:57.801 LabApp] JupyterLab application directory is /blue/avery/ekoenig/conda/envs/cmsdas/share/jupyter/lab
+[I 2025-05-09 09:22:57.802 LabApp] Extension Manager is 'pypi'.
+[I 2025-05-09 09:22:57.839 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-05-09 09:22:57.847 ServerApp] notebook | extension was successfully loaded.
+[I 2025-05-09 09:22:57.847 ServerApp] Serving notebooks from local directory: /blue/avery/ekoenig/scratch/short-ex-mlg
+[I 2025-05-09 09:22:57.847 ServerApp] Jupyter Server 2.15.0 is running at:
+[I 2025-05-09 09:22:57.847 ServerApp] http://c0709a-s30.ufhpc:25383/tree
+[I 2025-05-09 09:22:57.847 ServerApp]     http://127.0.0.1:25383/tree
+[I 2025-05-09 09:22:57.847 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2025-05-09 09:22:57.931 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-05-09 09:24:00.527 ServerApp] 302 GET / (@172.16.206.51) 0.60ms
+[I 2025-05-09 09:24:00.646 JupyterNotebookApp] 302 GET /tree? (@172.16.206.51) 0.65ms
+[I 2025-05-09 09:24:05.288 ServerApp] User 9b455b33137d40a2b1c52df1b1c455e7 logged in.
+[I 2025-05-09 09:24:05.288 ServerApp] 302 POST /login?next=%2Ftree%3F (9b455b33137d40a2b1c52df1b1c455e7@172.16.206.51) 60.99ms
+[W 2025-05-09 09:24:21.316 ServerApp] Notebook 1_exploratory_analysis.ipynb is not trusted
+[W 2025-05-09 09:24:22.628 ServerApp] Notebook 1_exploratory_analysis.ipynb is not trusted
+[I 2025-05-09 09:24:23.370 ServerApp] Kernel started: be8799ff-e2d0-49c6-ad80-30197fff5041
+[I 2025-05-09 09:24:24.668 ServerApp] Connecting to kernel be8799ff-e2d0-49c6-ad80-30197fff5041.
+[I 2025-05-09 09:24:24.669 ServerApp] Connecting to kernel be8799ff-e2d0-49c6-ad80-30197fff5041.
+[I 2025-05-09 09:24:25.395 ServerApp] Connecting to kernel be8799ff-e2d0-49c6-ad80-30197fff5041.
+[I 2025-05-09 09:24:25.972 ServerApp] Connecting to kernel be8799ff-e2d0-49c6-ad80-30197fff5041.
+[I 2025-05-09 09:26:23.668 ServerApp] Saving file at /1_exploratory_analysis.ipynb
+[I 2025-05-09 09:26:30.353 ServerApp] Starting buffering for be8799ff-e2d0-49c6-ad80-30197fff5041:9fe5e69d-73b8-4480-85a1-e33191d17a8b
+[W 2025-05-09 09:26:37.292 ServerApp] Notebook 2_classification.ipynb is not trusted
+[I 2025-05-09 09:26:38.423 ServerApp] Connecting to kernel be8799ff-e2d0-49c6-ad80-30197fff5041.
+[W 2025-05-09 09:26:38.431 ServerApp] Notebook 2_classification.ipynb is not trusted
+[I 2025-05-09 09:26:38.992 ServerApp] Starting buffering for be8799ff-e2d0-49c6-ad80-30197fff5041:b93dbeb2-7623-401c-9d3f-6f561e38ca02
+[I 2025-05-09 09:26:39.165 ServerApp] Kernel started: 6967cb3e-b4ea-4678-8c39-fa49de2d5e72
+[I 2025-05-09 09:26:39.763 ServerApp] Connecting to kernel 6967cb3e-b4ea-4678-8c39-fa49de2d5e72.
+[I 2025-05-09 09:27:39.225 ServerApp] Kernel interrupted: 6967cb3e-b4ea-4678-8c39-fa49de2d5e72
+[I 2025-05-09 09:27:52.948 ServerApp] Kernel restarted: 6967cb3e-b4ea-4678-8c39-fa49de2d5e72
+[I 2025-05-09 09:27:53.067 ServerApp] Starting buffering for 6967cb3e-b4ea-4678-8c39-fa49de2d5e72:ef68fa87-0304-45eb-8980-0697e1e458bd
+[I 2025-05-09 09:27:53.199 ServerApp] Connecting to kernel 6967cb3e-b4ea-4678-8c39-fa49de2d5e72.
+[I 2025-05-09 09:27:53.199 ServerApp] Restoring connection for 6967cb3e-b4ea-4678-8c39-fa49de2d5e72:ef68fa87-0304-45eb-8980-0697e1e458bd
+[I 2025-05-09 09:28:39.212 ServerApp] Saving file at /2_classification.ipynb
+[W 2025-05-09 09:31:08.776 ServerApp] Notebook 3_multiclass_classification.ipynb is not trusted
+[I 2025-05-09 09:31:10.234 ServerApp] Connecting to kernel be8799ff-e2d0-49c6-ad80-30197fff5041.
+[W 2025-05-09 09:31:10.337 ServerApp] Notebook 3_multiclass_classification.ipynb is not trusted
+[I 2025-05-09 09:31:10.488 ServerApp] Connecting to kernel 6967cb3e-b4ea-4678-8c39-fa49de2d5e72.
+[I 2025-05-09 09:31:10.557 ServerApp] Starting buffering for be8799ff-e2d0-49c6-ad80-30197fff5041:f552d20e-bb6e-48f7-9d4b-e2745237a601
+[I 2025-05-09 09:31:11.214 ServerApp] Kernel started: b3217525-4026-46e1-b8a3-41a196e41bde
+[I 2025-05-09 09:31:11.808 ServerApp] Connecting to kernel b3217525-4026-46e1-b8a3-41a196e41bde.
+[W 2025-05-09 09:32:16.548 ServerApp] Notebook 4_regression.ipynb is not trusted
+[I 2025-05-09 09:32:17.763 ServerApp] Connecting to kernel be8799ff-e2d0-49c6-ad80-30197fff5041.
+[W 2025-05-09 09:32:17.769 ServerApp] Notebook 4_regression.ipynb is not trusted
+[I 2025-05-09 09:32:18.007 ServerApp] Connecting to kernel 6967cb3e-b4ea-4678-8c39-fa49de2d5e72.
+[I 2025-05-09 09:32:18.038 ServerApp] Connecting to kernel b3217525-4026-46e1-b8a3-41a196e41bde.
+[I 2025-05-09 09:32:18.106 ServerApp] Starting buffering for be8799ff-e2d0-49c6-ad80-30197fff5041:37b0512d-f93a-489d-a843-5c123e90ee8b
+[I 2025-05-09 09:32:18.674 ServerApp] Kernel started: 1d5606d0-0b84-45d0-950a-6e4819a714c9
+[I 2025-05-09 09:32:19.266 ServerApp] Connecting to kernel 1d5606d0-0b84-45d0-950a-6e4819a714c9.
+[I 2025-05-09 09:33:11.139 ServerApp] Saving file at /3_multiclass_classification.ipynb
+[I 2025-05-09 09:34:19.102 ServerApp] Saving file at /4_regression.ipynb
+[I 2025-05-09 09:40:11.706 ServerApp] Starting buffering for 6967cb3e-b4ea-4678-8c39-fa49de2d5e72:ef68fa87-0304-45eb-8980-0697e1e458bd
+[I 2025-05-09 09:40:11.891 ServerApp] Starting buffering for b3217525-4026-46e1-b8a3-41a196e41bde:057eb9f6-e619-4afc-b894-fbdbbe29d659
+[I 2025-05-09 09:40:12.068 ServerApp] Starting buffering for 1d5606d0-0b84-45d0-950a-6e4819a714c9:0dc31971-a3a4-4c4f-89f8-2b1a4ecd67c6
+slurmstepd: error: *** JOB 1264184 ON c0709a-s30 CANCELLED AT 2025-05-09T09:55:23 ***
