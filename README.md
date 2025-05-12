@@ -8,6 +8,17 @@ The core of this tutorial comes from https://github.com/vischia/data_science_sch
 
 The CMSDAS version extends it to consider a convolutional network to regress Higgs quantities, plus some fixes.
 
+## Install Environment
+
+Installation can be done on HPG by running the command 
+```bash
+git clone https://github.com/ekoenig4/CMSDAS-2024-short-ex-mlg.git
+
+cd CMSDAS-2024-short-ex-mlg
+
+bash setup.sh
+```
+
 ## Introductory slides
 
 They are embedded into this repository. You can download them by clicking on [this link](./Machine\ Learning\ Short\ Exercise\ at\ CMSDAS\ 2024.pdf)
